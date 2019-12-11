@@ -1,0 +1,87 @@
+header {
+    background-color: teal;
+    font-family: 'Playfair Display', serif;
+  }
+  .main-menu {
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding:10px;
+    text-align: center;
+  }
+  .main-menu li {
+    display: inline;
+   } 
+  .main-menu a:hover {
+      background-color:rgb(255, 196, 0);
+      color:  teal;
+  
+  }
+  .main-menu a {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 100px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    
+  }
+.wrapper {
+    box-shadow: 0 0 5px 2px rgba(77, 77, 77, 0.2);
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif; 
+    font-size: 15px;
+    width: 970px;
+    padding-top: 10px;
+    
+}
+ article{
+    display: inline-block;
+    width: 470px;
+    margin: 0 auto;
+    padding: 5px;
+    
+}
+.wrapper img {
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+article {
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+h2 {
+    text-transform: uppercase;
+    color: rgb(180, 166, 136);
+    font-size: 13px;
+    margin-left: 25px;
+    font-weight: normal;
+    margin-top: 25px;
+    font-family: 'Roboto';
+    
+    
+}
+h3 {
+    color: rgb(95, 95, 95); 
+    font-size: 28px;
+    margin-left: 25px;
+    font-weight: normal;
+    
+}
+.wrapper p{
+    color: rgb(95, 95, 95); 
+    margin-left: 25px;
+    font-weight: normal;
+    width:450px;
+    line-height: 21px;
+    transform: scaleY(1.1);
+    
+}
+article+article{
+    margin-left: 6px;
+}
